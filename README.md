@@ -19,6 +19,8 @@ FYKShuffleSwift adds the Fisher-Yates / Knuth Shuffle algorithm as an extension 
 
 The FYK shuffle shuffles the contents of the array it is called upon.
 ```swift
+import FYKShuffleSwift
+
 let originalArray: Array<Int> = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 var shuffledArray = originalArray
 shuffledArray.shuffle()
